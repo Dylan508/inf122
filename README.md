@@ -1,3 +1,3 @@
 # inf122
-NOMBRE: Dylan Jhamil Mamani Condori /br
+NOMBRE: Dylan Jhamil Mamani Condori                                                                                                                                          
 MATERIA: INF-122
