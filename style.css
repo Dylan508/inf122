@@ -1,0 +1,38 @@
+body {
+    background-color: #c7cad0;
+}
+h1 {
+    color: #bc6cd9
+}
+h2 {
+    color: #bc6cd9
+}
+p {
+    font-size: large;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(76, 108, 153);
+}
+img{
+    max-width: 25%;
+    max-height: 25%;
+}
+ol li {
+    font-size: 30px;
+    color: blueviolet;
+}
+ul li {
+    color: green;
+    font-weight: bold;
+    background-color: #dcf539;
+    text-align: center;
+}
+
+.enviar{
+    border-radius: 5px;
+    background-color: #6ded74;
+    color: #272625
+}
+.etiqueta{
+    background-color: #db98d0;
+}
