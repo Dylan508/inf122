@@ -92,3 +92,12 @@ body{
     font-size: var(--sm);
     margin: 0;
 }
+@media(max-width: 720px){
+    .icons-container{
+        grid-template-columns: repeat(1,1fr);
+        margin: 50px 10px 50px 10px
+    }
+    .brochure p{
+        font-size: 0;
+    }
+}

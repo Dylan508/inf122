@@ -42,7 +42,7 @@ body{
 
 .icons-container{
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin: 50px 260px 50px 260px;
     justify-content: center;
 }
@@ -52,4 +52,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: 16px 0 16px 0;
+}
+.card-container figure img{
+    align-items: center;
 }
