@@ -53,13 +53,16 @@ body{
 .more-info{
     display: grid;
     background-color: var(--ligth-purple);
-    grid-template-columns: 1fr 1fr;
+    /*grid-template-columns: 1fr 1fr;*/
+    width: 100%;
 }
 .card-container{
     display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin: 16px 0 16px 0;
-
 } 
 .icons-container{
     display: grid;
