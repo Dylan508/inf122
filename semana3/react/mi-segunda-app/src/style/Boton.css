@@ -6,7 +6,7 @@ button {
     cursor: pointer;
     margin: 10px;
     font-size: 24px;
-    background-color: #FF872C;
+    background-color: rgba(0, 38, 163, 0.322);
 }
 
 button:hover {
