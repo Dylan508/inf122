@@ -9,6 +9,10 @@ button {
     background-color: rgba(0, 38, 163, 0.322);
 }
 
+.boton-click{
+    width: 150px;
+} 
+
 button:hover {
     background-color: #DCDCE5;
     color: #FF872C;
