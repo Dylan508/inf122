@@ -9,6 +9,7 @@ function Tablero() {
 
     const click = (i) => {
         const cuadrosTemp = [...cuadros];
+        
         if(cuadrosTemp[i]==null){
             cuadrosTemp[i] = jugador;
             console.log(cuadrosTemp);
