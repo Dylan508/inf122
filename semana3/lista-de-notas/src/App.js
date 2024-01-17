@@ -1,13 +1,12 @@
 import './App.css';
-import NotaBasic from './components/ListaNotas';
+import NotaBasic from './components/NotaBasic';
 function App() {
-  
-  const onEdit = () => {
-    console.log("editar")
-  }
-  const onDelete = () => {
-    console.log("eliminar")
-  }
+  return(
+    <div className='app'>
+      <ListaNotas />
+    </div>
+  );
+
 
 }
 
