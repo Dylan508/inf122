@@ -1,0 +1,19 @@
+.contenedor-perfil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil{
+    width: 100%;
+    height: 100vh;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    margin: 10px;    
+}

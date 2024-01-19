@@ -1,9 +1,10 @@
 import React from "react";
-function Boton  ({funClick, text }){
+//import '../styles/Boton.css'
+
+function Boton({texto, funcionClick}){
     return(
-        <button onclick={funClick}>
-            {Text}
-        </button>
+        <button onClick={funcionClick}>{texto}</button>
     );
 }
+
 export default Boton;
