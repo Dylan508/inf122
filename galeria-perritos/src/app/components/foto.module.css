@@ -1,0 +1,13 @@
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor img{
+
+    border-radius: 50%;
+    object-fit: cover;
+}
