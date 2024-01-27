@@ -16,8 +16,9 @@ function Foto(){
         .then(data=>{
             
             setPerrito(data.sprites.front_default),
-            setEstado(data.species.name)
+            setEstado(data.species.name),
             setHabilidad(data.abilities[1].ability.name)
+            setMovimiento(data.moves[71].move.name)
             
         });
     },[])
@@ -27,8 +28,8 @@ function Foto(){
             
             <Image src={perrito}height={300} width={300}/>
             <h1>{habilidad}</h1>
-            <h1>{movimiento}</h1>
-
+            <h1>movimiento: { movimiento}</h1>
+            
         </div>
     );
         
